@@ -163,5 +163,4 @@ function totalDaysWorked(numOfDays, wage){
     else
         return numOfDays;
 }
-
 console.log("Number of days worked by the employee are "+dailyWages.reduce(totalDaysWorked,0));
